@@ -17,6 +17,6 @@ jobs:
         run: pip install requests
 
       - name: Run repo creation script
-        run: python scripts/create_repos.py --org 'https://dev.azure.com/jvilasbo/' --project_name 'novobanco-test' --project_id '44dd166b-18b4-48f8-98ba-fac7205e1e72' --pat '7x2F1G5wq7ilPCh130ijU10RWlRYXFEjyhF1RmE0sUkbA92x45Z1JQQJ99BEACAAAAAH2IElAAASAZDOYWQt' --input data/repos.json
+        run: python scripts/create_repos.py --org 'https://dev.azure.com/jvilasbo/' --project_name 'novobanco-test' --project_id '44dd166b-18b4-48f8-98ba-fac7205e1e72' --pat '7x2F1G5wq7ilPCh130ijU10RWlRYXFEjyhF1RmE0sUkbA92x45Z1JQQJ99BEACAAAAAH2IElAAASAZDOYWQt' --input repos.json
 
         
